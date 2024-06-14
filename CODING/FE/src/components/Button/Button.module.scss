@@ -1,0 +1,37 @@
+.orange {
+    background-color: #ed6d20;
+    min-height: 30px;
+    border-radius: 6px;
+}
+
+.small {
+    max-width: 72px;
+    width: 72px;
+}
+
+.medium {
+    min-width: 240px;
+}
+
+.large {
+    width: 100%;
+    border-radius: 10px;
+    height: 60px;
+}
+
+.transparent {
+    width: 72px;
+    height: 32px;
+    font-size: 1.2rem;
+    margin-left: 5px;
+    color: var(--white);
+    background-color: transparent;
+    border: 1px solid #60ad56;
+}
+
+.active {
+    background-color: #f18c3e;
+    color: var(--white);
+    font-weight: 700;
+    text-decoration: underline;
+}

@@ -1,0 +1,35 @@
+.wrapper {
+    margin: 40px 0;
+    background-color: var(--white);
+    border: 2px solid var(--light-green);
+    border-radius: 10px;
+}
+
+.applyTutor__container {
+    text-align: center;
+}
+
+.applyTutor__container-content {
+    padding: 40px 0;
+}
+
+.applyTutor__container-title {
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+.applyTutor__container-summary {
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+}
+.applyTutor__container-btn {
+    color: var(--black);
+    width: 120px;
+    border-radius: 6px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: var(--light-green);
+        color: var(--white);
+    }
+}

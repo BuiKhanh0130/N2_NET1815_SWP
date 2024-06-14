@@ -1,0 +1,41 @@
+.wrapper {
+    padding: 40px 0;
+}
+
+.rentPanel__container {
+}
+.rentPanel__container-title {
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.rentPanel__container-items {
+    display: flex;
+}
+
+.rentPanel__container-items-img {
+    width: 35%;
+
+    img {
+        height: 350px;
+    }
+}
+.rentPanel__container-items-dsc {
+    flex: 1 1;
+}
+
+.rentPanel__container-items-content {
+    margin: 24px 0;
+    p {
+        font-size: 2rem;
+        margin-bottom: 6px;
+    }
+    span {
+        display: flex;
+        margin-left: 22px;
+        font-size: 1.4rem;
+        color: #afabaa;
+    }
+}

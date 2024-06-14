@@ -1,0 +1,34 @@
+.wrapper {
+    background-color: var(--white);
+    min-height: 100px;
+    margin: 40px 0;
+    padding: 20px 0;
+    border-radius: 10px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.lessonPanel__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.lessonPanel__container-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2.6rem;
+}
+
+.lessonPanel__container-items-number {
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 8px;
+}
+.lessonPanel__container-items-title {
+    margin-top: 8px;
+    color: var(--text-color);
+    font-size: 1.6rem;
+}
